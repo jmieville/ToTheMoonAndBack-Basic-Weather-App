@@ -96,6 +96,7 @@
 				TargetAttributes = {
 					8B1ED46E1DB3A82A0035C9CA = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8GL695U4E9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -260,7 +261,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8GL695U4E9;
 				INFOPLIST_FILE = "API Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MievilleKampolJeanMarc.API-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +276,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8GL695U4E9;
 				INFOPLIST_FILE = "API Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MievilleKampolJeanMarc.API-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +306,7 @@
 				8B1ED4831DB3A82A0035C9CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
